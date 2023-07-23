@@ -1,0 +1,127 @@
+
+.productContainer{
+  padding-top: 9vh;
+}
+
+.productContainer>h2{
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(159, 159, 159);
+    margin: 0px 40px;
+    font-size: 28px;
+}
+
+
+  #catg_templates {
+    padding-left: 9%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+  }
+  
+  .catg_tmplt {
+    background-color: rgb(191, 255, 220);
+    border-radius: 5px;
+    height: 420px;
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px auto;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+  }
+  
+  .catg_tmpimg_div {
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    background-color: black;
+  }
+  
+  .catg_tmpimg_div img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .catg_tmptxt1,
+  .catg_tmptxt2 {
+    position: absolute;
+  }
+  
+  .catg_tmptxt1 {
+    margin: 5px 0;
+    margin-left: 10px;
+    margin-top: 320px;
+  }
+  
+  .catg_tmptxt1 h4 {
+    font-size: 22px;
+    margin: 3px 0;
+  }
+  
+  .catg_tmptxt1 p {
+    font-size: 18px;
+  }
+  
+  .catg_tmptxt2 {
+    width: 100%;
+    display: none;
+    margin-top: 320px;
+  }
+  
+  .catg_tmptxt2 h5 {
+    position: relative;
+    width: 180px;
+    padding: 5px 0;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    margin: 15px 0;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 3px;
+  }
+  
+  .catg_tmptxt2 h5:hover {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .catg_tmptxt2 h4 {
+    font-size: 22px;
+    margin: 8px 0;
+    padding-left: 10px;
+  }
+  
+  .catg_tmptxt2 p {
+    font-size: 18px;
+    margin: 8px 0;
+    padding-left: 10px;
+  }
+  .catg_tmplt:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    transform: scale(1.01);
+    transition: 300ms;
+  }
+  
+  .catg_tmplt:hover .catg_tmptxt1 {
+    display: none;
+  }
+  .catg_tmplt:hover .catg_tmptxt2 {
+    display: block;
+    background-color: rgb(191, 255, 220);
+    margin-top: 290px;
+  }
+
+  .pagination {
+    display: inline-block;
+    padding-left: 44%;
+  }
+  
+  .pagination button {
+    color: white;
+    border: none;
+    float: left;
+    background-color: black;
+    padding: 8px 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }

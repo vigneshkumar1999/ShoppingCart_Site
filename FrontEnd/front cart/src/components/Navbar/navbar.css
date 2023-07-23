@@ -1,0 +1,51 @@
+.navbar{
+    display: grid;
+    height: 8vh;
+    background-color: rgb(43, 25, 42);
+    grid-template-columns: 20% 80%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.website_logo_wrapper
+{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.website_logo{
+    height: 8vh;
+    cursor: pointer;
+}
+
+.navlinksContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items:center;
+    height: 8vh;
+}
+
+.navlinks{
+    width:fit-content;
+    color: white;
+    font-size: 15px;
+    padding: 0px 2vw;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    height: inherit;
+}
+
+.select{
+    background-color: rgb(76, 175, 80);
+}
+
+.navlinks:hover{
+    background-color: rgb(76, 175, 80);
+}
